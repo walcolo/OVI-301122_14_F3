@@ -1,4 +1,5 @@
-/*font-family: 'Libre Franklin', sans-serif;*/
+
+
 
 #contenidos{
     width: 1300px;
@@ -9,11 +10,17 @@
     
 /*etiquetas*/
 
-
     
 body {
-    background-color: #005883;
+    background-color: #ffffff;
 }
+
+.logo{
+    width: 400px;
+}
+
+
+
 h1{
     margin-top: 35px;
     font-family: 'Libre Franklin', sans-serif;
@@ -21,31 +28,31 @@ h1{
     text-align: right;
     margin-right: 145px;
     color: white;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 h2{
-    margin-left: 180px;
+    margin-left: 20%;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 40px;
     text-align: center;
-    color: white;
-    margin-top: 0px;
+    color: black;
+    margin-top: -5%;
 }
+
 h3{
     margin-top: 15px;
     font-family: 'Libre Franklin', sans-serif;
     font-size: 30px;
     text-align: center;
-    color: #F0B429;
+    color: #111174;
 }
-
 h4{
     margin-top: 5px;
     padding: 0px;
     text-align: center;
     font-size: 15px;
-    color: #005883;
+    color: #ffffff;
     margin-bottom: 5px;
     
 }
@@ -60,49 +67,41 @@ h5{
     
 }
 
-h6{
-    margin-top: 15px;
-    margin-left: 30px;
-    font-family: 'Libre Franklin', sans-serif;
-    font-size: 25px;
-    margin-bottom: 0px;
-    text-align: left;
-    color: #F0B429;
-}
+
 header{
-    background-image: url(../img/UNAD1.png);
     background-position: left;
     background-repeat: no-repeat;
-    background-size: 200px 145px;
-    width: 1250px;
-    height: 145px;
-    background-color: rgba(255, 255, 255, 0);
-    margin-bottom: 15px;
-    margin-left: 50px;
+    background-size: 150px 145px;
+    width: 1300px;
+    height: 90px;
+    background-color: rgb(241, 238, 238);
+    margin-bottom: auto;
+    margin-left: 0px;
 }
+
+
 nav{
     text-align: center;
     width: 1300px;
-    height: 50px;
-    background-color: #F0B429;
+    height: 60px;
+    background-color: rgb(0, 70, 105);
     border-radius: 5px;
     border-bottom-right-radius: 0; 
     margin-bottom: 0px;
     display: block;
 }
+
 ul{
+    
     margin: 0px;
     padding: 0px;
     display: inline-block;
 }    
  
-nav ul li{
-    z-index: 1 !important;
+ li{ 
     float: left;
     list-style-type: none;
-    background-color: #F0B429;
-    /*border-radius: 5px;
-    box-shadow: 0 0 5px black inset;*/
+    background-color: rgb(0, 70, 105);   
     width: inherit;
     height: 35px;
     font-size: 25px;
@@ -111,34 +110,8 @@ nav ul li{
     padding-top: 8px;
     padding-bottom: 5px;
     }
-nav ul li ul li{
-    float: none;
-    position: relative;
-}
-article ul{
-    background-color: transparent;
-    padding: 0;
-    margin-left: 60px;
-    margin-top: 20px;
-    display: block;
 
-    
-    
-}
 
-article ul li{
-    background-color: transparent;
-    font-size: 20px;
-    position: relative;
-    float: none;
-    margin: 1px;
-    padding: 0px;
-    list-style-type: circle;
-    color: white;
-    text-align: justify;
-    
-
-}
  
 li ul{
        position: inherit;
@@ -155,111 +128,160 @@ li:hover ul{
         
     }
 
+    
 section{
+    
     width: 1300px;
     /*background-color: white;*/
     height: auto;
-    /*float: left;*/
+    z-index: -1;
+    float: left;
 }
 article{
-    width: 980px;
-    /*float: left;*/
-    margin-right: 30px;
-    margin-left: 10px;
-    z-index: 0;
-    position: relative;
+    width: 700px;
+    float: left;
 }
 aside{
-    float: right;
-    z-index:  -1 !important;
-    margin-right: 20px;
-    position: absolute;
-    right: 0;
+    /*background-color: blue;*/
+    width: 280px;
+    float: left;
+    margin-left: 20px;
+    height: 490px;
+    padding-left: 19px;
+    
+    /*margin-left: 20px;*/
 }
 figure{
     margin: 0;
     padding: 0;
-    text-align: center;
-}
 
-figure img{
-    width: 850px;
-    height: auto;
 }
-
 img{
     
-    width: 250px;
+    width: 130px;
     height: auto;
 }
+
 hr{
     z-index: -1;
     background-color: #005883;
-    border-color: #F0B429;
-    left: 1000px;
+    border-color: rgba(6, 7, 68, 0.945);
+    left: 714px;
     width:4px;
     height: 420px;
+    top: 250px;
     position: absolute;
     margin: 0;
 }
 p{
-    z-index: 0;
-    color: white;
+    color: rgb(5, 47, 82);
     font-size: 20px;
     text-align: justify;
     margin-left: 10px;
 
 }
-iframe{
-    margin-left: 267.5px;
-    align-content: center;
-    margin-bottom: 20px;
-    margin-top: 20px;
-}
 
 footer{
     position: absolute;
     height: 70px;
-    background-color: #F0B429;
+    background-color: rgb(8, 8, 8);
     width: 1300px;
-    /*top: 2500px;*/
+    clear: both;
+    top: 1100px;
 }
 footer img{
     margin: 0px;
-    height: 15px;
+    height: 25px;
     width: auto;
     
 }
-/*clases*/
-/*.ancho_menu_home{width: 900px;}
-.ancho_menu_paginas{width: 970px;}*/
 
-/*color de el texto en el menu desplegable*/
-/*----------------------------------------*/
+
 .menu:link{color: white; text-decoration:none}
-.menu:visited{color: white; text-decoration:none}    
-.menu:hover{ color: #005883;text-decoration:none}
-.menu:active{color: white; text-decoration:none}
-.menu:focus{color: white; text-decoration:none}
+.menu:visited{color: white; text-decoration:none} 
 
-.articulo:link{color: white; text-decoration:none; font-style: italic}
-.articulo:visited{color: white; text-decoration:none; font-style: italic}    
-.articulo:hover{ color: black;text-decoration:none; font-style: italic}
-.articulo:active{color: white; text-decoration:none; font-style: italic}
-.articulo:focus{color: white; text-decoration:none; font-style: italic}
-
-.foto{width: 350px; height: auto;}
-.texto{width: inherit; color:white; font-size: 25px;}
-/*seudo clases*/
-article ul:hover{
-    background-color: transparent; 
-}
-article ul li:hover{
-    background-color: transparent;
-    
-}
 li:hover{
     background-color: #F0B429;
-    z-index: 1 !important;
+    z-index: 1   
+}
+
+/*redes sociales*/
+
+.social-bar{
     
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+.icon{
+  color: white;
+    text-decoration: none;
+    padding: .7rem;
+    display: flex;
+    transition: all .5s;
+}
+
+.icon-facebook2{
+    background: #2E506E;
+    
+    }
+.icon-twitter{
+    background: #339DC5;
+    }
+.icon-youtube{
+    background: #E83028;
+    }
+.icon-instagram{
+    background: #3F60A5;
+    }
+
+.icon:first-child{
+    border-radius: 1rem 0 0 0;
+}
+.icon:last-child{
+    border-radius: 0 0 0 1rem;
+}
+
+.icon:hover{
+    padding-right: 3rem;
+    border-radius: 1rem 0 0 1rem;
+    box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+
+
+#actividad{
+	
+	width:40%;
+	height:auto;
+	margin:auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:center;
+	
+}
+
+.autores{
+	
+	padding:10px;
+	width:320px;
+	margin:30px 10px 20px 20px;	
+	text-align:center;
+	background:#1f61c442;
+	border-radius:20px;
+	box-shadow:0px 0px 20px rgb(70, 73, 224);
+	
+	
+}
+.menu:link{color: white; text-decoration:none}
+.menu:visited{color: white; text-decoration:none} 
+
+li:hover{
+    background-color: #F0B429;
+    z-index: 1   
 }
