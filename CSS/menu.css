@@ -1,0 +1,46 @@
+           * {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+               
+				margin:auto;
+				width:1500px;
+                font-family:Arial, Helvetica, sans-serif;
+			}
+			
+
+.nav li a{
+    background-color:#EFF3F3;
+    color: black;
+    text-decoration: none;
+    padding: 5px 100px;
+    display: block;
+    height: 30px;
+    
+}
+
+
+.nav li a:hover {
+				background-color:#A8ACAD;
+			}
+
+.nav > li{
+    float:left;
+    
+}
+
+.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:130px;
+			}
+
+.nav li:hover > ul{
+    
+    display: block;
+}
+
+
+
